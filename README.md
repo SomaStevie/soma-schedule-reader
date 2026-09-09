@@ -6,5 +6,7 @@ is uploaded, and the schedule never leaves your machine.
 
 **Open it:** https://somastevie.github.io/soma-schedule-reader/
 
-This repository holds only the built viewer (`index.html`). The version is
+Cargill-branded build: https://somastevie.github.io/soma-schedule-reader/cargill/
+
+This repository holds only the built viewers (`index.html`, `cargill/index.html`). The version is
 shown bottom-left of the status bar and on the opening screen.
