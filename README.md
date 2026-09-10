@@ -11,7 +11,9 @@ is uploaded, and the schedule never leaves your machine.
 
 | Version | SOMA | Cargill |
 |---|---|---|
-| 3.0.0 (latest) | [/v3.0.0/](https://somastevie.github.io/soma-schedule-reader/v3.0.0/) | [/v3.0.0/cargill/](https://somastevie.github.io/soma-schedule-reader/v3.0.0/cargill/) |
+| 3.0.1 (latest) | [/v3.0.1/](https://somastevie.github.io/soma-schedule-reader/v3.0.1/) | [/v3.0.1/cargill/](https://somastevie.github.io/soma-schedule-reader/v3.0.1/cargill/) |
+| 2.1.1 | [/v2.1.1/](https://somastevie.github.io/soma-schedule-reader/v2.1.1/) | [/v2.1.1/cargill/](https://somastevie.github.io/soma-schedule-reader/v2.1.1/cargill/) |
+| 3.0.0 | [/v3.0.0/](https://somastevie.github.io/soma-schedule-reader/v3.0.0/) | [/v3.0.0/cargill/](https://somastevie.github.io/soma-schedule-reader/v3.0.0/cargill/) |
 | 2.1.0 | [/v2.1.0/](https://somastevie.github.io/soma-schedule-reader/v2.1.0/) | [/v2.1.0/cargill/](https://somastevie.github.io/soma-schedule-reader/v2.1.0/cargill/) |
 
 This repository holds only the built viewers. The version is shown
