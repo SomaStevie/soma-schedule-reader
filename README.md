@@ -18,3 +18,5 @@ is uploaded, and the schedule never leaves your machine.
 
 This repository holds only the built viewers. The version is shown
 bottom-left of the status bar and on the opening screen.
+
+From 3.1.0 the viewer asks for a licence key before it opens a schedule. Contact stevie@somaprojectcontrols.com for one.
