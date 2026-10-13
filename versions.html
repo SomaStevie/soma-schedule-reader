@@ -1,0 +1,57 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>SOMA Schedule Reader — versions</title>
+<style>
+ body{margin:0;padding:40px 24px;font:15px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;color:#1A1F26;background:#EEF1F5}
+ main{max-width:760px;margin:0 auto;background:#fff;border-top:6px solid #F2A900;padding:28px 34px;box-shadow:0 8px 30px rgba(0,40,80,.12)}
+ h1{margin:0 0 4px;font-size:22px;color:#00385A} p{color:#5C6673;margin:0 0 18px}
+ table{border-collapse:collapse;width:100%} th{text-align:left;color:#00385A;border-bottom:2px solid #D6DBE1;padding:8px 6px;font-size:13px}
+ td{padding:9px 6px;border-bottom:1px solid #EBEEF2;vertical-align:top;font-size:14px} a{color:#00385A}
+ .latest{background:#F2A900;color:#1A1F26;font-size:11px;font-weight:600;padding:1px 7px;border-radius:8px;margin-left:6px;white-space:nowrap}
+ .note{font-size:12.5px;color:#5C6673;margin-top:18px}
+</style></head><body><main>
+<h1>SOMA Schedule Reader</h1>
+<p>Every published version stays at its own address, so a link that was sent out keeps opening the build it was sent for.</p>
+<table><thead><tr><th>Version</th><th>Released</th><th>Reader</th><th>Other editions</th><th>What changed</th></tr></thead><tbody>
+<tr><td><b>3.10.1</b><span class="latest">latest</span></td><td>12 Oct 2026</td><td><a href="./v3.10.1/">open</a></td><td><a href="./v3.10.1/builder/">builder</a> · <a href="./v3.10.1/nec4/">NEC4 checker</a></td>
+  <td>Sign-in builds can be opened with more than one login.</td></tr>
+<tr><td><b>3.10.0</b></td><td>2 Oct 2026</td><td><a href="./v3.10.0/">open</a></td><td><a href="./v3.10.0/builder/">builder</a> · <a href="./v3.10.0/nec4/">NEC4 checker</a></td>
+  <td>The HTML report has a "Choose the sections to show" panel: tick sections on or off for the page and the print.</td></tr>
+<tr><td><b>3.9.0</b></td><td>2 Oct 2026</td><td><a href="./v3.9.0/">open</a></td><td><a href="./v3.9.0/builder/">builder</a> · <a href="./v3.9.0/nec4/">NEC4 checker</a></td>
+  <td>NEC4 checker: two worked examples (a first programme and a revised one) open from its front screen with everything entered, to demonstrate the review and its outputs.</td></tr>
+<tr><td><b>3.8.2</b></td><td>1 Oct 2026</td><td><a href="./v3.8.2/">open</a></td><td><a href="./v3.8.2/builder/">builder</a> · <a href="./v3.8.2/nec4/">NEC4 checker</a></td>
+  <td>Word exports pass Word's own schema checks. NEC4 checker: "no Activity Schedule field" can be confirmed, and a tidier critical path finding.</td></tr>
+<tr><td><b>3.8.1</b></td><td>1 Oct 2026</td><td><a href="./v3.8.1/">open</a></td><td><a href="./v3.8.1/builder/">builder</a> · <a href="./v3.8.1/nec4/">NEC4 checker</a></td>
+  <td>Tidier front screen: even spacing between the buttons.</td></tr>
+<tr><td><b>3.8.0</b></td><td>1 Oct 2026</td><td><a href="./v3.8.0/">open</a></td><td><a href="./v3.8.0/builder/">builder</a> · <a href="./v3.8.0/nec4/">NEC4 checker</a></td>
+  <td>The NEC4 programme check is on the schedule reader's front screen, beside Build from quantities, and in the NEC4 review tab once a programme is open.</td></tr>
+<tr><td><b>3.7.0</b></td><td>1 Oct 2026</td><td><a href="./v3.7.0/">open</a></td><td><a href="./v3.7.0/builder/">builder</a> · <a href="./v3.7.0/nec4/">NEC4 checker</a></td>
+  <td>Resize any column by dragging its heading edge, move columns by dragging their headings, and drag the bar between the sheet and the Gantt from anywhere along it. The layout is remembered.</td></tr>
+<tr><td><b>3.6.1</b></td><td>1 Oct 2026</td><td><a href="./v3.6.1/">open</a></td><td><a href="./v3.6.1/builder/">builder</a> · <a href="./v3.6.1/nec4/">NEC4 checker</a></td>
+  <td>Fix: after refreshing a sign-in build while still signed in, the viewer could open with its menus and options missing until you signed out and back in.</td></tr>
+<tr><td><b>3.6.0</b></td><td>1 Oct 2026</td><td><a href="./v3.6.0/">open</a></td><td><a href="./v3.6.0/builder/">builder</a> · <a href="./v3.6.0/nec4/">NEC4 checker</a></td>
+  <td>Filter by any activity code or user-defined field in the file, from the top of the Filter menu. Microsoft Project text fields and outline codes are read as activity codes. Code filters are kept in saved views.</td></tr>
+<tr><td><b>3.5.1</b></td><td>28 Sep 2026</td><td><a href="./v3.5.1/">open</a></td><td><a href="./v3.5.1/builder/">builder</a> · <a href="./v3.5.1/nec4/">NEC4 checker</a></td>
+  <td>Resources, Curves and resource columns only fill in when the file has resource assignments or expenses. Activity-level work hours and Microsoft Project tasks with no named resource no longer produce hours or S-curves.</td></tr>
+<tr><td><b>3.5.0</b></td><td>28 Sep 2026</td><td><a href="./v3.5.0/">open</a></td><td><a href="./v3.5.0/builder/">builder</a> · <a href="./v3.5.0/nec4/">NEC4 checker</a></td>
+  <td>New edition: the <a href="./nec4/">NEC4 Programme Acceptance Checker</a>. Scheduling engine brought closer to P6 (retained logic and progress override, start-on and as-late-as-possible constraints, links to other projects).</td></tr>
+<tr><td><b>3.4.3</b></td><td>25 Sep 2026</td><td><a href="./v3.4.3/">open</a></td><td><a href="./v3.4.3/builder/">builder</a></td>
+  <td>An edition can leave out the quantities module (no "Build from quantities", no Quantities tab).</td></tr>
+<tr><td><b>3.4.2</b></td><td>24 Sep 2026</td><td><a href="./v3.4.2/">open</a></td><td><a href="./v3.4.2/builder/">builder</a></td>
+  <td>The Word report shows the NEC checklist grouped as on screen: Clause 31.2, Clause 32.1 and reviewer practice, with the note on "not found" and "to confirm".</td></tr>
+<tr><td><b>3.4.1</b></td><td>24 Sep 2026</td><td><a href="./v3.4.1/">open</a></td><td><a href="./v3.4.1/builder/">builder</a></td>
+  <td>NEC programme checklist corrected: counts only the Clause 31.2 items a file can show, lists Clause 32.1 and reviewer-practice items separately, cites Clause 31.3, and marks what the file cannot decide as "to confirm".</td></tr>
+<tr><td><b>3.4.0</b></td><td>24 Sep 2026</td><td><a href="./v3.4.0/">open</a></td><td><a href="./v3.4.0/builder/">builder</a></td>
+  <td>Sign-in builds ask for a username and password; the viewer inside the file is encrypted until the right login is entered. Sign out on the drop screen and status bar.</td></tr>
+<tr><td><b>3.3.0</b></td><td>18 Sep 2026</td><td><a href="./v3.3.0/">open</a></td><td><a href="./v3.3.0/builder/">builder</a></td>
+  <td>The brand definition now carries UI design tokens (type scale, spacing, control sizing, surfaces, tables, focus) as well as colours, so an embedded edition can take its host product's design language. No visible change to these builds.</td></tr>
+<tr><td><b>3.2.1</b></td><td>18 Sep 2026</td><td><a href="./v3.2.1/">open</a></td><td><a href="./v3.2.1/builder/">builder</a></td>
+  <td>SOMA Schedule Builder: the quantities workflow as a standalone product at <a href="./builder/">…/builder/</a> — opens on "Start from quantities", with the reader behind it for validating an existing programme.</td></tr>
+<tr><td><b>3.2.0</b></td><td>18 Sep 2026</td><td><a href="./v3.2.0/">open</a></td><td></td>
+  <td>Quantities: paste or open the estimate's key quantities, validate the open programme against production norms (time allowed per quantity, missing scope, stages out of order), or build a first-cut programme from them as an XER with stage gates, overlaps, curing lags and procurement lead-ins. Editable norms library. Report section and dashboard tile.</td></tr>
+<tr><td><b>3.1.1</b></td><td>15 Sep 2026</td><td><a href="./v3.1.1/">open</a></td><td></td>
+  <td>Client-branded builds carry nothing that names the publisher, and the build refuses to produce one that does. Saved view files are now <code>.view.json</code>; older ones still open.</td></tr>
+<tr><td><b>3.1.0</b></td><td>13 Sep 2026</td><td><a href="./v3.1.0/">open</a></td><td></td>
+  <td>Licence keys: the viewer asks for a key the first time it opens and remembers it in that browser. Keys are signed offline, name the licensee and edition, and can expire.</td></tr>
+</tbody></table>
+<p class="note">The root address <a href="./">somastevie.github.io/soma-schedule-reader/</a> always serves the latest SOMA build, and <a href="./builder/">…/builder/</a> the SOMA Schedule Builder.</p>
+</main></body></html>
